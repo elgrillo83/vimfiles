@@ -11,6 +11,8 @@ curl -LSso $HOME/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 # Install vim plugins
 cd $HOME/.vim/bundle
 
+# CtrlP
+git clone https://github.com/kien/ctrlp.vim
 # Solarized
 git clone git://github.com/altercation/vim-colors-solarized.git
 # Syntastic

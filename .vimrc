@@ -11,6 +11,15 @@ execute pathogen#infect()
 
 syntax on
 filetype plugin indent on
+let mapleader = ','
+let g:mapleader = ','
+
+" -----
+" CtrlP
+" http://kien.github.io/ctrlp.vim/#installation
+" -----
+
+nnoremap <leader>f :CtrlP<CR>
 
 " --------- 
 " Solarized 
