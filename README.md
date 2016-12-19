@@ -4,6 +4,6 @@
 
 * `git clone git@github.com:elgrillo83/vimfiles.git`
 
-## Run Setup script
+## Run setup script
 
 * `./setup.sh`
