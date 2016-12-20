@@ -17,3 +17,5 @@ git clone https://github.com/kien/ctrlp.vim
 git clone git://github.com/altercation/vim-colors-solarized.git
 # Syntastic
 git clone --depth=1 https://github.com/vim-syntastic/syntastic.git
+# tComment
+git clone https://github.com/tomtom/tcomment_vim

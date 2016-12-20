@@ -33,7 +33,7 @@ nnoremap <leader>f :CtrlP<CR>
 
 " --------- 
 " Solarized 
-" http://vimawesome.com/plugin/vim-colors-solarized-ours
+" https://github.com/altercation/vim-colors-solarized
 " --------- 
 
 syntax enable
@@ -61,3 +61,11 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
+
+" --------
+" tComment
+" https://github.com/tomtom/tcomment_vim
+" --------
+"
+nnoremap // :TComment<CR>
+vnoremap // :TComment<CR>
