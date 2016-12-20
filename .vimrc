@@ -24,6 +24,8 @@ set expandtab    " insert space characters whenever tab key is pressed
 
 set nowrap " no line breaking
 
+set number " display line numbers
+
 " -----
 " CtrlP
 " http://kien.github.io/ctrlp.vim/#installation
