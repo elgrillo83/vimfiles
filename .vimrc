@@ -9,8 +9,8 @@ execute pathogen#infect()
 " General
 " -------
 
-syntax on
-filetype plugin indent on
+syntax on " turn on color syntax highlighting
+filetype plugin indent on " turn on filetype detection, plugins and indent scripts
 
 " Set leader key
 let mapleader = ','
