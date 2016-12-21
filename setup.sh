@@ -11,6 +11,8 @@ curl -LSso $HOME/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 # Install vim plugins
 cd $HOME/.vim/bundle
 
+# Airline
+git clone https://github.com/bling/vim-airline
 # CtrlP
 git clone https://github.com/kien/ctrlp.vim
 # Solarized

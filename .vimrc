@@ -28,6 +28,8 @@ set number " display line numbers
 
 set colorcolumn=80 " display 80 characters column
 
+set laststatus=2 " Display status line always
+
 " -----
 " CtrlP
 " http://kien.github.io/ctrlp.vim/#installation
