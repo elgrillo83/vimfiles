@@ -26,6 +26,8 @@ set nowrap " no line breaking
 
 set number " display line numbers
 
+set colorcolumn=80 " display 80 characters column
+
 " -----
 " CtrlP
 " http://kien.github.io/ctrlp.vim/#installation
