@@ -30,9 +30,21 @@ set colorcolumn=80 " display 80 characters column
 
 set laststatus=2 " Display status line always
 
+" ---
+" Ack
+" https://github.com/mileszs/ack.vim
+" ---
+
+" Use ag (The Silver Searcher) if available
+if executable('ag')
+  let g:ackprg = 'ag --vimgrep'
+endif
+
+nnoremap <leader>a :Ack!<Space>
+
 " -----
 " CtrlP
-" http://kien.github.io/ctrlp.vim/#installation
+" http://kien.github.io/ctrlp.vim
 " -----
 
 nnoremap <leader>f :CtrlP<CR>
