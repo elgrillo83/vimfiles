@@ -30,6 +30,11 @@ set colorcolumn=80 " display 80 characters column
 
 set laststatus=2 " Display status line always
 
+" Switch to next buffer
+noremap <tab> :bn<CR>
+" Switch to previous buffer
+noremap <S-tab> :bp<CR>
+
 " ---
 " Ack
 " https://github.com/mileszs/ack.vim
