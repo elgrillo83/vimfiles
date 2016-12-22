@@ -47,6 +47,16 @@ endif
 
 nnoremap <leader>a :Ack!<Space>
 
+" -----------------
+" Bbye (Buffer Bye)
+" https://github.com/moll/vim-bbye
+" -----------------
+
+" Close current buffer 
+nnoremap <leader>d :Bdelete<CR>
+" Close all buffers
+nnoremap <leader>D ::bufdo :Bdelete<CR>
+
 " -----
 " CtrlP
 " http://kien.github.io/ctrlp.vim

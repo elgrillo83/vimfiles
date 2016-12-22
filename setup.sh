@@ -17,6 +17,9 @@ git clone git clone https://github.com/mileszs/ack.vim.git
 # Airline
 git clone https://github.com/bling/vim-airline
 
+# Bbye
+git clone https://github.com/moll/vim-bbye.git
+
 # CtrlP
 git clone https://github.com/kien/ctrlp.vim
 
