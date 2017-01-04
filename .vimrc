@@ -35,6 +35,12 @@ noremap <tab> :bn<CR>
 " Switch to previous buffer
 noremap <S-tab> :bp<CR>
 
+" Set byebug breakpoint
+noremap <leader>b obyebug <Esc>
+
+" Set pry breakpoint
+noremap <leader>p orequire 'pry'; binding.pry <Esc>
+
 " ---
 " Ack
 " https://github.com/mileszs/ack.vim
