@@ -29,6 +29,12 @@ git clone https://github.com/kien/ctrlp.vim
 # Solarized
 git clone git://github.com/altercation/vim-colors-solarized.git
 
+# Supertab
+git clone https://github.com/ervandew/supertab
+
+# Surround
+git clone git://github.com/tpope/vim-surround.git
+
 # Syntastic
 git clone --depth=1 https://github.com/vim-syntastic/syntastic.git
 
