@@ -61,7 +61,7 @@ nnoremap <leader>a :Ack!<Space>
 " https://github.com/moll/vim-bbye
 " -----------------
 
-" Close current buffer 
+" Close current buffer
 nnoremap <leader>d :Bdelete<CR>
 " Close all buffers
 nnoremap <leader>D ::bufdo :Bdelete<CR>
@@ -81,10 +81,10 @@ autocmd BufWritePre * StripWhitespace
 
 nnoremap <leader>f :CtrlP<CR>
 
-" --------- 
-" Solarized 
+" ---------
+" Solarized
 " https://github.com/altercation/vim-colors-solarized
-" --------- 
+" ---------
 
 syntax enable
 
