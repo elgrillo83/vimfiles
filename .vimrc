@@ -41,6 +41,9 @@ noremap <leader>b obyebug <Esc>
 " Set pry breakpoint
 noremap <leader>p orequire 'pry'; binding.pry <Esc>
 
+" Highlight search matches
+set hlsearch
+
 " ---
 " Ack
 " https://github.com/mileszs/ack.vim
