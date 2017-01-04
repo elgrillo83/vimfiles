@@ -20,6 +20,9 @@ git clone https://github.com/bling/vim-airline
 # Bbye
 git clone https://github.com/moll/vim-bbye.git
 
+# Better Whitespace
+git clone https://github.com/ntpeters/vim-better-whitespace
+
 # CtrlP
 git clone https://github.com/kien/ctrlp.vim
 

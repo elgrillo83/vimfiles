@@ -66,6 +66,14 @@ nnoremap <leader>d :Bdelete<CR>
 " Close all buffers
 nnoremap <leader>D ::bufdo :Bdelete<CR>
 
+" -----------------
+" Better Whitespace
+" https://github.com/ntpeters/vim-better-whitespace
+" -----------------
+
+" Strip trailing whitespace on save
+autocmd BufWritePre * StripWhitespace
+
 " -----
 " CtrlP
 " http://kien.github.io/ctrlp.vim
