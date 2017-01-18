@@ -98,6 +98,13 @@ endif
 let g:solarized_termcolors=256
 colorscheme solarized
 
+" --------
+" SuperTab
+" --------
+
+" Select completions top to bottom
+let g:SuperTabDefaultCompletionType = "<c-n>"
+
 " ---------
 " Syntastic
 " https://github.com/vim-syntastic/syntastic
