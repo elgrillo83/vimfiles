@@ -44,6 +44,12 @@ noremap <leader>p orequire 'pry'; binding.pry <Esc>
 " Highlight search matches
 set hlsearch
 
+" Easier split navigations
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+
 " ---
 " Ack
 " https://github.com/mileszs/ack.vim
