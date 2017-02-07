@@ -48,3 +48,6 @@ git clone --depth=1 https://github.com/vim-syntastic/syntastic.git
 
 # tComment
 git clone https://github.com/tomtom/tcomment_vim
+
+# TypeScript Syntax for Vim
+git clone https://github.com/leafgarland/typescript-vim.git
