@@ -23,6 +23,9 @@ git clone https://github.com/moll/vim-bbye.git
 # Better Whitespace
 git clone https://github.com/ntpeters/vim-better-whitespace
 
+# Coffeescript Highlighting
+git clone https://github.com/kchmck/vim-coffee-script.git
+
 # CtrlP
 git clone https://github.com/kien/ctrlp.vim
 
