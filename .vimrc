@@ -50,6 +50,10 @@ nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
+" Ignore certain files and folders when auto-completing
+set wildignore=.svn,CVS,.git,*.swp,*.jpg,*.png,*.gif,*.pdf,*.bak
+set wildignore+=**/node_modules/**,**/bower_components/**
+
 " ---
 " Ack
 " https://github.com/mileszs/ack.vim
