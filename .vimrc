@@ -54,6 +54,9 @@ nnoremap <C-H> <C-W><C-H>
 set wildignore=.svn,CVS,.git,*.swp,*.jpg,*.png,*.gif,*.pdf,*.bak
 set wildignore+=**/node_modules/**,**/bower_components/**
 
+" Do not create .swp (swap-) files
+set noswapfile
+
 " ---
 " Ack
 " https://github.com/mileszs/ack.vim
