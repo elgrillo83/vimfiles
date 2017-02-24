@@ -49,5 +49,13 @@ git clone --depth=1 https://github.com/vim-syntastic/syntastic.git
 # tComment
 git clone https://github.com/tomtom/tcomment_vim
 
+# Tsuguyomi (TypeScript IDE)
+git clone https://github.com/Shougo/vimproc.vim.git ~/.vim/bundle/vimproc.vim
+pushd ~/.vim/bundle/vimproc.vim
+make
+popd
+
+git clone https://github.com/Quramy/tsuquyomi.git ~/.vim/bundle/tsuquyomi
+
 # TypeScript Syntax for Vim
 git clone https://github.com/leafgarland/typescript-vim.git
