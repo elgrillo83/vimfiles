@@ -57,6 +57,9 @@ set wildignore+=**/node_modules/**,**/bower_components/**
 " Do not create .swp (swap-) files
 set noswapfile
 
+" Set history (default is 20)
+set history=1000
+
 " ---
 " Ack
 " https://github.com/mileszs/ack.vim
