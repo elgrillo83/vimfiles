@@ -110,6 +110,14 @@ autocmd BufWritePre * StripWhitespace
 " -----
 
 nnoremap <leader>f :CtrlP<CR>
+" https://stackoverflow.com/questions/21346068/slow-performance-on-ctrlp-it-doesnt-work-to-ignore-some-folders
+" Persist the cache
+let g:ctrlp_cache_dir = $HOME . '/.cache/ctrlp'
+" Use ag (the_silver_searcher) instead of vim's native globpath() apis to
+" search for files
+if executable('ag')
+  let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
+endif
 
 " ---------
 " Solarized
