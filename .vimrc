@@ -119,6 +119,13 @@ if executable('ag')
   let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
 endif
 
+" -----
+" vim-go
+" https://github.com/fatih/vim-go
+" -----
+
+let g:go_fmt_command = "goimports"
+
 " ---------
 " Solarized
 " https://github.com/altercation/vim-colors-solarized
