@@ -70,6 +70,10 @@ set noswapfile
 " Set history (default is 20)
 set history=1000
 
+" Maintain undo history between sessions
+set undofile
+set undodir=~/.vim/undodir
+
 " ---
 " Ack
 " https://github.com/mileszs/ack.vim
