@@ -12,7 +12,7 @@ curl -LSso $HOME/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 cd $HOME/.vim/bundle
 
 # Ack
-git clone git clone https://github.com/mileszs/ack.vim.git
+git clone https://github.com/mileszs/ack.vim.git
 
 # Airline
 git clone https://github.com/bling/vim-airline
