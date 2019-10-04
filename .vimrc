@@ -122,13 +122,6 @@ if executable('ag')
   let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
 endif
 
-" -----
-" vim-go
-" https://github.com/fatih/vim-go
-" -----
-
-let g:go_fmt_command = "goimports"
-
 " ---------
 " Solarized
 " https://github.com/altercation/vim-colors-solarized
@@ -183,3 +176,19 @@ vnoremap // :TComment<CR>
 " ---------
 
 let g:tsuquyomi_disable_quickfix = 1 " Integrate with Syntastic
+
+" -----
+" vim-go
+" https://github.com/fatih/vim-go
+" -----
+
+let g:go_fmt_command = "goimports"
+
+" -----
+" vim-prettier
+" https://github.com/prettier/vim-prettier
+" -----
+
+" Running before saving async
+let g:prettier#autoformat = 0
+autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.md,*.vue,*.yaml,*.html PrettierAsync
