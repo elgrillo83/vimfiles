@@ -12,6 +12,9 @@ execute pathogen#infect()
 syntax on " turn on color syntax highlighting
 filetype plugin indent on " turn on filetype detection, plugins and indent scripts
 
+set encoding=utf-8  " encoding displayed
+set fileencoding=utf-8  " encoding written to file
+
 " Set leader key
 let mapleader = ','
 let g:mapleader = ','
