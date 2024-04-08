@@ -190,6 +190,9 @@ let g:go_fmt_command = "goimports"
 " https://github.com/prettier/vim-prettier
 " -----
 
+" Max line length that prettier will wrap on
+let g:prettier#config#print_width = 80
+
 " Running before saving async
 let g:prettier#autoformat = 0
 autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.md,*.vue,*.yaml,*.html PrettierAsync
