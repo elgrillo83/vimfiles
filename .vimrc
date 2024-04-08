@@ -129,11 +129,12 @@ endif
 
 syntax enable
 
-if has('gui_running')
-  set background=light
-else
-  set background=dark
-endif
+" if has('gui_running')
+"   set background=light
+" else
+"   set background=dark
+" endif
+set background=light
 
 " Use degraded 256 colorscheme
 let g:solarized_termcolors=256
