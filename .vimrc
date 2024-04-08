@@ -42,7 +42,7 @@ noremap <S-tab> :bp<CR>
 noremap <leader>b obyebug <Esc>
 
 " Set pry breakpoint
-noremap <leader>p orequire 'pry'; binding.pry <Esc>
+noremap <leader>p obinding.pry <Esc>
 
 " Highlight search matches
 set hlsearch
